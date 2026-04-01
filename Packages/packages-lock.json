@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "be.elab.tickcollection": {
+      "version": "https://github.com/EloiStree/2025_06_02_upm_tick_collection.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b7b27fffd5b8e8d9289c75b567624c45dc03da68"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.11",
       "depth": 0,

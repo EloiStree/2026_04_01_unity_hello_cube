@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "be.elab.tickcollection": "https://github.com/EloiStree/2025_06_02_upm_tick_collection.git",
     "com.unity.ai.navigation": "2.0.11",
     "com.unity.collab-proxy": "2.11.4",
     "com.unity.ide.rider": "3.0.38",

@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="be.elab.tickcollection.Runtime.csproj" />
+  <Project Path="be.elab.tickcollection.Editor.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+</Solution>
