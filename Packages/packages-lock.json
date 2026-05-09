@@ -1,11 +1,67 @@
 {
   "dependencies": {
+    "be.elab.hellocopter": {
+      "version": "https://github.com/EloiStree/2023_02_19_upm_kid_toy_helicopter_code.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ae8204f74dddd80cfdfd0cac0e502151eae36433"
+    },
+    "be.elab.ovnitoy": {
+      "version": "https://github.com/EloiStree/2025_04_15_upm_kid_toy_ovni_code.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "4f3d7831702c4baa9fa0d9d8e64a96dbf2ec4cb6"
+    },
+    "be.elab.skidtoycar": {
+      "version": "https://github.com/EloiStree/2023_11_01_upm_kid_toy_skid_steering_code.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a1bce9592b078d9131816da8f881f7773461be2a"
+    },
+    "be.elab.tellotoy": {
+      "version": "https://github.com/EloiStree/2023_02_19_upm_kid_toy_drone_tello_code.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "534a577bd51c2991c895e7bc01323dbcba1582c6"
+    },
     "be.elab.tickcollection": {
       "version": "https://github.com/EloiStree/2025_06_02_upm_tick_collection.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "b7b27fffd5b8e8d9289c75b567624c45dc03da68"
+      "hash": "802d0be7427bdebee7c049b4d37e0a8b4bf0cf75"
+    },
+    "be.elab.toyboat": {
+      "version": "https://github.com/EloiStree/2024_09_23_upm_kid_toy_boat_code.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ce0fec9f182ed0d1f19406e31e463e673bc445ab"
+    },
+    "be.elab.toytank": {
+      "version": "https://github.com/EloiStree/2024_10_05_upm_kid_toy_tank_code.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2faa36822aa084ee1f703eae7da48aa0aad9e041"
+    },
+    "be.elab.twowheelscar": {
+      "version": "https://github.com/EloiStree/2026_04_03_upm_kid_toy_two_wheel_code.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7c8b99dd6398c1f0bd7416ab71d18b760ae8f499"
+    },
+    "be.elab.uvdrawabledrones": {
+      "version": "https://github.com/EloiStree/2024_08_05_upm_uv_drawable_drones.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8e7d4f91e50c83f189e348c3f5480c8addeafa6c"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.11",
@@ -17,7 +73,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.28",
+      "version": "1.8.25",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -34,18 +90,20 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
-      "version": "6.5.0",
+      "version": "2.5.7",
       "depth": 2,
-      "source": "builtin",
+      "source": "registry",
       "dependencies": {
-        "com.unity.burst": "1.8.25",
-        "com.unity.nuget.mono-cecil": "1.11.6",
+        "com.unity.burst": "1.8.19",
+        "com.unity.mathematics": "1.3.2",
         "com.unity.test-framework": "1.4.6",
+        "com.unity.nuget.mono-cecil": "1.11.5",
         "com.unity.test-framework.performance": "3.0.3"
-      }
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
-      "version": "2.1.0",
+      "version": "2.0.5",
       "depth": 1,
       "source": "builtin",
       "dependencies": {}
@@ -78,13 +136,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
-      "version": "1.4.0",
-      "depth": 3,
-      "source": "builtin",
-      "dependencies": {}
+      "version": "1.3.2",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer.center": {
-      "version": "1.0.1",
+      "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -92,63 +151,77 @@
       }
     },
     "com.unity.nuget.mono-cecil": {
-      "version": "1.11.6",
+      "version": "1.11.5",
       "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "17.5.0",
+      "version": "17.2.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.burst": "1.8.14",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.ugui": "2.0.0",
         "com.unity.collections": "2.4.3",
+        "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.terrain": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.rendering.light-transport": "1.0.1"
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "17.5.0",
+      "version": "17.2.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "17.5.0",
-        "com.unity.shadergraph": "17.5.0",
-        "com.unity.render-pipelines.universal-config": "17.5.0"
+        "com.unity.render-pipelines.core": "17.2.0",
+        "com.unity.shadergraph": "17.2.0",
+        "com.unity.render-pipelines.universal-config": "17.0.3"
       }
     },
     "com.unity.render-pipelines.universal-config": {
-      "version": "17.5.0",
+      "version": "17.0.3",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "17.5.0"
+        "com.unity.render-pipelines.core": "17.0.3"
+      }
+    },
+    "com.unity.rendering.light-transport": {
+      "version": "1.0.1",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.collections": "2.2.0",
+        "com.unity.mathematics": "1.2.4",
+        "com.unity.modules.terrain": "1.0.0"
       }
     },
     "com.unity.searcher": {
-      "version": "4.9.4",
+      "version": "4.9.3",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "17.5.0",
+      "version": "17.2.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "17.5.0",
+        "com.unity.render-pipelines.core": "17.2.0",
         "com.unity.searcher": "4.9.3"
       }
     },
     "com.unity.test-framework": {
-      "version": "1.7.0",
+      "version": "1.6.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ext.nunit": "2.1.0",
+        "com.unity.ext.nunit": "2.0.3",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       }
@@ -176,15 +249,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
-      "version": "2.5.0",
+      "version": "2.0.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
-        "com.unity.modules.physics2d": "1.0.0",
-        "com.unity.modules.physics": "1.0.0"
+        "com.unity.modules.imgui": "1.0.0"
       }
     },
     "com.unity.visualscripting": {
@@ -203,14 +273,6 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.modules.adaptiveperformance": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0"
-      }
-    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
@@ -221,9 +283,7 @@
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.jsonserialize": "1.0.0"
-      }
+      "dependencies": {}
     },
     "com.unity.modules.animation": {
       "version": "1.0.0",
@@ -300,14 +360,6 @@
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physicscore2d": "1.0.0"
-      }
-    },
-    "com.unity.modules.physicscore2d": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
       "dependencies": {}
     },
     "com.unity.modules.screencapture": {
@@ -364,8 +416,7 @@
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.hierarchycore": "1.0.0",
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.animation": "1.0.0"
+        "com.unity.modules.physics": "1.0.0"
       }
     },
     "com.unity.modules.umbra": {
@@ -427,16 +478,6 @@
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0"
-      }
-    },
-    "com.unity.modules.vectorgraphics": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.uielements": "1.0.0",
-        "com.unity.modules.imageconversion": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0"
       }
     },
     "com.unity.modules.vehicles": {

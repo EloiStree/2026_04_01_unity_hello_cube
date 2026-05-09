@@ -1,0 +1,108 @@
+{
+    "version": 1,
+    "name": "MoveDronesInput",
+    "maps": [
+        {
+            "name": "MoveDrones",
+            "id": "dc337af6-f3a2-4d57-a940-c36597860d5b",
+            "actions": [
+                {
+                    "name": "HelloButton",
+                    "type": "Button",
+                    "id": "90d02cdb-7822-45ce-b9b6-6191543d6763",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftMotorCar",
+                    "type": "Button",
+                    "id": "2d8b0107-2680-4b63-bb18-d83f1a0cc93f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightMotorCar",
+                    "type": "Button",
+                    "id": "60d8a8a2-b2e9-47f3-ac11-70d0a39c6bdb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4ba57675-2c60-41f4-941a-2f8ea9e901f2",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HelloButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d131b141-0f7a-4f21-8942-02713e8f01b2",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HelloButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21f20661-0751-49c0-a2b8-94ec77560d59",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftMotorCar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c46a03cb-88ec-437d-81c7-255e91e0b187",
+                    "path": "<Keyboard>/numpad4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftMotorCar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e05f1fb6-5251-4151-b9a7-9ced78f5ef61",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightMotorCar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f274a23-2259-4309-a9f1-60ed2a541bf4",
+                    "path": "<Keyboard>/numpad6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightMotorCar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
